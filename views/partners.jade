@@ -1,0 +1,93 @@
+include head
+
+body.partners
+
+  main
+
+    header
+      a(href="https://glitch.com")
+        - bird = "https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-day.svg"
+        img(class="bird" width=75 height=62 src=bird)
+
+      h1
+        a(href="https://glitch.com", onclick="javascript: ga('send', {hitType: 'pageview',page: '/internal-links/homepage/h1'});") 
+          span Glitch 
+        span  helps any developer succeed with your APIs, instantly. 
+
+    section
+      h2 Glitch For Your API: From zero to working code in one minute
+      img.screenshot(src="https://cdn.hyperdev.com/79f9314d-5056-4089-9d5d-d3c31751d071%2FgomixRemix.png")
+
+      p 
+        a(href="https://glitch.com/") Glitch 
+        |gives any coder a fully-functional app to start building on your API instantly — they just remix your sample app with one click. And 
+        strong Glitch For Your API 
+        |gives you an unprecedented set of free tools to promote your platform to developers:
+      ul
+        li 
+          strong Realtime coding collaboration 
+          | with any developer in the world, on nearly any browser
+        li List an 
+          strong unlimited 
+          | number of sample projects or example apps in the Glitch gallery<br />(Make yours 
+          a(href="https://medium.com/glitch/the-creators-guide-to-your-gomix-community-gallery-listing-8f4077f5e6bf#.hzgrcaoy7") look great
+          !)
+        li Simple tools to 
+          strong import from GitHub 
+          so your existing SDK is up &amp; running in no time<br >
+          |(Try this! <code>https://glitch.com/edit/#!/import/github/[YourOrg]/[YourRepo]</code> )
+        li A "
+          strong Remix on Glitch
+          " button to embed in any Node.js project for developers<br />
+          img(src="https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix-button.svg" width=162 height=33)
+
+      p Devs can tweak the app to suit their needs, drop in their API keys, and see their real, working code is instantly running in production, for free. Want to get the most out of Glitch For Your API? 
+        a(href="mailto:contact@glitch.com") Drop us a line
+        |  and we'll send you a guide on how to get the most out of the platform.
+      p (Don't have a  Node sample app? We'll build one for you! See <a href="#premium">Premium Features</a>.)
+
+    section
+      h2 When devs get stuck, you can help them before they give up
+      img.screenshot(src="https://cdn.gomix.com/6d561a98-036e-47a6-b152-a2a66a73d13e%2Fglitch-multi-player.gif")
+      p Glitch's code editor allows live, real-time simultaneous editing, like Google Docs. So you and your new developer BFF can simultaneously edit code and fix bugs as they happen.
+      p We're even building tools to let you see the moment a developer encounters an error for the first time while trying out your API. You can learn what needs to improve in your platform, and catch them before they give up or get frustrated.
+
+    section
+      h2 Glitch helps you reach an inclusive developer audience
+      img.screenshot(src="https://cdn.hyperdev.com/79f9314d-5056-4089-9d5d-d3c31751d071%2FgomixNoMess.png")      
+      p If you've been struggling to broaden the reach of your developer evangelism, Glitch can help. We've built a friendly, welcoming community with absolutely zero tolerance for harassment or abuse. Our outreach efforts regularly connect with underrepresented developers that other communities don't serve.
+      p When you bring your platform to Glitch, you get outside the bubble of the developers you already know.
+
+    section
+      h2#premium Premium Features
+      img.screenshot(src="https://cdn.gomix.com/6d561a98-036e-47a6-b152-a2a66a73d13e%2Fglitch-ideas.png")
+      p And next? We're creating an exclusive suite of premium developer success features:
+      ul
+        li 
+          strong Advanced analytics
+          |  to keep track of how many developers try your API or SDK, and metrics on how many of them succeed.
+        li A 
+          strong custom-branded gallery 
+          |of sample apps you choose to feature for your API, that developers can remix immediately using Glitch
+        li Inclusion in regular "
+          strong office hours
+          |" events to mentor developers who are trying your APIs
+        li 
+          strong Coming soon: 
+          |We'll alert you in realtime as a new developer tries your API, and let you know when devs get stuck
+      
+      p
+        a(href="mailto:contact@glitch.com") Contact us
+        |  and we'll put you 
+        strong first in line 
+        | to try our new Premium features.
+        
+    section
+      h2 Backed by seventeen years of delighting developers
+      img.illustration(src="http://www.fogcreek.com/images/logos/fc-logo.svg")
+      p Glitch is made by Fog Creek, one of the most influential small tech companies in the world. We co-created Stack Overflow with Jeff Atwood, invented Trello, and pioneered bug tracking with FogBugz. We literally wrote the book on writing great software, and now we're reinventing things again.  
+      p You can 
+        a(href="https://medium.com/@anildash/3be38a5798ee") read more 
+        | about why we've built Glitch For Your API.
+
+    include footer
